@@ -1,0 +1,50 @@
+{
+  "name": "meta",
+  "version": "0.1.0",
+  "homepage": "https://testproject.global-group.ir/webpage",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "buildsta": "next build && next export"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^1.8.5",
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
+    "@hookform/resolvers": "^2.8.8",
+    "@mantine/core": "^4.0.7",
+    "@mantine/dropzone": "^4.0.7",
+    "@mantine/hooks": "^4.0.7",
+    "@mantine/next": "^4.0.7",
+    "@mantine/notifications": "^4.0.7",
+    "@mantine/prism": "^4.0.7",
+    "axios": "^0.26.0",
+    "babel-runtime": "^6.26.0",
+    "framer-motion": "^6.2.7",
+    "next": "12.1.0",
+    "react": "17.0.2",
+    "react-circular-progressbar": "^2.0.4",
+    "react-dom": "17.0.2",
+    "react-drag-drop-files": "^2.3.4",
+    "react-fast-marquee": "^1.3.1",
+    "react-gauge-chart": "^0.4.0",
+    "react-hook-form": "^7.27.1",
+    "react-icons": "^4.3.1",
+    "react-is-visible": "^1.2.0",
+    "react-query": "^3.34.16",
+    "react-random-reveal": "^2.0.0",
+    "react-scroll-parallax": "^3.0.5",
+    "react-select": "^5.2.2",
+    "react-tilty": "^2.0.3",
+    "react-type-animation": "^1.1.2",
+    "react-typing-animation": "^1.6.2",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "eslint": "8.9.0",
+    "eslint-config-next": "12.1.0"
+  }
+}

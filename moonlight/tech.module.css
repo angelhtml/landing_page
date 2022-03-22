@@ -1,0 +1,46 @@
+.tech{
+    border-top: 1px solid #beffff2f;
+    box-shadow: 0 -10px 100px 10px rgba(163, 255, 255, 0.315);
+}
+.techtitle{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-shadow: 0 1px 1px #0ff;
+    padding: 20px;
+}
+.techdescribtions{
+    color: rgb(204, 204, 204);
+    margin-top: .5rem;
+    font-size: .9rem;
+    padding: 20px;
+}
+.techcontainer{
+    display: flex;
+}
+.techbox1{
+    flex: 33%;
+}
+.techbox2{
+    flex: 33%;
+    background-color: rgba(255, 204, 204, 0.521);
+}
+.techbox3{
+    flex: 33%;
+    background-color: rgba(22, 224, 83, 0.295);
+}
+.techcontent{
+    border-bottom: 1px solid rgba(0, 255, 255, 0.363);
+}
+.techImage {
+    width: 100%;
+    height: 230px;
+}
+@media screen and (max-width: 768px){
+    .techcontainer{
+        flex-direction: column;
+    }
+    .techdescribtions{
+        font-size: 1rem;
+    }
+}

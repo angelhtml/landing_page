@@ -1,0 +1,119 @@
+
+html,
+body {
+  margin: 0;
+    font-size: 1.15rem;
+   background-color: black !important;
+color: #ffffff !important;
+font-family: "Adelle_Reg" !important;
+transition: all 0.1s ease-in;
+position: relative;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(112, 112, 112);
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(48, 47, 47);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(0, 0, 0);
+}
+.footer{
+  background-color: #00aeff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23ffffff' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.inputflushlable{ transition: all 0.3s ease;}
+
+
+
+
+.inputflush:valid ~ .inputflushlable{
+
+  bottom: 1.75rem !important;
+ 
+font-size: 0.8rem;
+
+
+}
+
+
+
+.inputflush:focus ~ .inputflushlable{
+
+  bottom: 1.75rem !important;
+ 
+font-size: 0.8rem;
+
+
+}
+/*=======style=========*/
+.navbar{
+  width: 100%;
+  background-color: orange;
+  color: #000000;
+  text-align: center;
+  font-size: 1.3rem;
+}
+.listtitle{
+  display: flex;
+  padding: 10px;
+  animation: title 0.5s linear;
+}
+@keyframes title{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+.listtitle p{
+  padding-right: 1rem;
+}
+.line-divider {
+  margin-top: 0rem;
+  font: 150% "Open Sans", Arial, sans-serif;
+  color: rgb(119, 119, 119);
+  text-align: center;
+  position: relative;
+  margin-bottom:1.5rem;
+}
+
+.line-divider:before {
+  content: "";
+  display: block;
+  border-top: solid 2px #999;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  top: 17px;
+  z-index: 1;
+}
+
+.line-divider .span-line-divider {
+  background: #000000;
+  padding: 0 20px;
+  position: relative;
+  z-index: 5;
+}
+.profit{
+  margin-right: 3rem;
+  font-size: 1.2rem;
+}
+@media screen and (max-width: 768px){
+  .listtitle{
+    flex-direction: column;
+  }
+  .listtitle p{
+    margin-top: 1rem;
+  }
+}
+

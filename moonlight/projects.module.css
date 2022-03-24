@@ -1,0 +1,77 @@
+.projectscontainer{
+    display: flex;
+    width: 90%;
+    margin-top: 2rem;
+    margin-left: 5%;
+    margin-bottom: 4rem;
+}
+.title{
+    padding: 15px;
+    font-size: 1.7rem;
+    text-shadow: 0 1px 1px #0ff;
+    margin-top: 2rem;
+}
+.projectsbox1,
+.projectsbox2{
+    flex: 50%;
+}
+.projectcontainer{
+    height: 6.5rem;
+    display: flex;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 5px 10px 1px rgba(0, 255, 255, 0.24);
+}
+.projectbox1{
+    flex: 45%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.projectbox2{
+    flex: 65%;
+}
+.projectbox2 h1{
+    text-align: center;
+    font-size: 1rem;
+}
+.projectbox2 p{
+    font-size: .8rem;
+    padding: 5px;
+    color: #cccccc;
+}
+.projectbox2 a{
+    font-size: .8rem;
+    padding: 5px;
+    color: #0ff;
+    padding-bottom: #0ff;
+}
+.pic{
+    width: 250px;
+    border-radius: 10px !important;
+}
+@media screen and (max-width: 768px){
+    .projectscontainer{
+        flex-direction: column;
+        margin-top: -2rem;
+    }
+    .projectcontainer{
+        margin-top: 3rem;
+        flex-direction: column;
+        height: auto;
+    }
+    .projectbox2 h1{
+        font-size: 1.4rem;
+    }
+    .projectbox2 p{
+        font-size: 1.3rem;
+        padding: 10px;
+    }
+    .projectbox2 a{
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+    .pic{
+        width: 100%;
+    }
+}

@@ -1,0 +1,39 @@
+.seocontainer{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3rem;
+}
+.seobox1{
+    flex: 50%;
+}
+.seobox2{
+    flex: 50%;
+}
+.seobox2 h1{
+    padding: 15px;
+    font-size: 1.7rem;
+    text-shadow: 0 1px 1px #0ff;
+    text-align: center;
+}
+.seobox2 span{
+    font-size: 1rem;
+    padding: 20px;
+    margin-top: -1.5rem;
+    display: flex;
+    color: #cccccc;
+}
+.check{
+    color: #0ff;
+    float: left;
+    height: 0%;
+}
+.Image{
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 1px rgba(0, 255, 255, 0.24);
+}
+@media screen and (max-width: 768px){
+    .seocontainer{
+        flex-direction: column;
+    }
+}

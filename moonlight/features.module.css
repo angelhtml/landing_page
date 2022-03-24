@@ -1,0 +1,160 @@
+.features{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2rem;
+}
+.featuresbox1{
+    flex: 33%;
+    padding: 20px;
+}
+.featuresbox2{
+    flex: 33%;
+    padding: 20px;
+}
+.featuresbox3{
+    flex: 33%;
+    padding: 20px;
+}
+.boxhero1{
+    background: rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.377);
+    backdrop-filter: blur(1px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.212);
+    width: 7rem;
+    height: 5rem;
+    border-radius: 5px;
+    position: absolute;
+    left: 8%;
+    margin-top: .4rem;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    -webkit-perspective: 1000px;
+}
+.iconbox1{
+    color: #9c9c9c;
+    margin-left: 35%;
+    margin-top: 20%;
+    font-size: 2rem;
+    transition: linear .5s;
+}
+.boxhero1:hover .iconbox1{
+    transform: translateZ(80px) perspective(200px);
+    filter: drop-shadow( 0 0px 5px rgb(146, 255, 250));
+    color: #0ff;
+}
+.titlebox{
+    text-align: center;
+    margin-top: -1.5rem;
+}
+.boxdescribtion{
+    text-align: center;
+    margin-top: .6rem;
+    font-size: .9rem;
+    color: silver;
+    margin-bottom: 2rem;
+}
+.boxhero2{
+    background: rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.377);
+    backdrop-filter: blur(1px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.212);
+    width: 7rem;
+    height: 5rem;
+    border-radius: 5px;
+    position: absolute;
+    left: 10%;
+    margin-top: .4rem;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    -webkit-perspective: 1000px;
+}
+.iconbox2{
+    color: #9c9c9c;
+    margin-left: 35%;
+    margin-top: 20%;
+    font-size: 2rem;
+    transition: linear .5s;
+}
+.boxhero2:hover .iconbox2{
+    transform: translateZ(80px) perspective(200px);
+    filter: drop-shadow( 0 0px 5px rgb(146, 255, 250));
+    color: #0ff;
+}
+.boxhero3{
+    background: rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.377);
+    backdrop-filter: blur(1px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.212);
+    width: 7rem;
+    height: 5rem;
+    border-radius: 5px;
+    position: absolute;
+    left: 10%;
+    margin-top: .4rem;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    -webkit-perspective: 1000px;
+}
+.iconbox3{
+    color: #9c9c9c;
+    margin-left: 35%;
+    margin-top: 20%;
+    font-size: 2rem;
+    transition: linear .5s;
+}
+.boxhero3:hover .iconbox3{
+    transform: translateZ(80px) perspective(200px);
+    filter: drop-shadow( 0 0px 5px rgb(146, 255, 250));
+    color: #0ff;
+}
+.tilty {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inner {
+    display: inline-block;
+    transform: translateZ(60px);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: white;
+    letter-spacing: 0.15rem;
+  }
+  .shine{
+      width: 30px;
+      height: 5px;
+      background-color: #0ff;
+      border-radius: 0 0 10px 10px;
+      transition: linear .5s;
+  }
+  .boxhero1:hover .shine{
+      box-shadow: 0 5px 15px 1px #0ff;
+  }
+  .boxhero2:hover .shine{
+    box-shadow: 0 5px 15px 1px #0ff;
+}
+.boxhero3:hover .shine{
+    box-shadow: 0 5px 15px 1px #0ff;
+}
+@media only screen and (max-width: 768px){
+    .features{
+        flex-direction: column;
+    }
+    .boxhero1,
+    .boxhero2,
+    .boxhero3{
+        left: 8%;
+    }
+}
